@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCompany.Shop.Client", "BestCompany.Shop.Client\BestCompany.Shop.Client.csproj", "{D8644503-6222-4852-BFBC-28020F08F9B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestCompany.Shop.Client", "BestCompany.Shop.Client\BestCompany.Shop.Client.csproj", "{D8644503-6222-4852-BFBC-28020F08F9B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DFA38667-8A96-4ABE-A0E3-C73EA21958D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCompany.Shop.Server", "BestCompany.Shop.Server\BestCompany.Shop.Server.csproj", "{0DF3E80F-3A51-41A6-AC9F-5032A027B340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCompany.Shop.Models", "BestCompany.Shop.Models\BestCompany.Shop.Models.csproj", "{06DE7248-38C6-4EAF-88D7-97BBF36BB277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCompany.Shop.PayPalClient", "BestCompany.Shop.PayPalClient\BestCompany.Shop.PayPalClient.csproj", "{ACE95701-1AB2-476B-8775-F54541795496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCompany.Shop.1CClient", "BestCompany.Shop.1CClient\BestCompany.Shop.1CClient.csproj", "{B5EE4480-0066-42FD-984C-6A53D382AAE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +23,22 @@ Global
 		{D8644503-6222-4852-BFBC-28020F08F9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8644503-6222-4852-BFBC-28020F08F9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8644503-6222-4852-BFBC-28020F08F9B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DFA38667-8A96-4ABE-A0E3-C73EA21958D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFA38667-8A96-4ABE-A0E3-C73EA21958D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFA38667-8A96-4ABE-A0E3-C73EA21958D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFA38667-8A96-4ABE-A0E3-C73EA21958D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF3E80F-3A51-41A6-AC9F-5032A027B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF3E80F-3A51-41A6-AC9F-5032A027B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF3E80F-3A51-41A6-AC9F-5032A027B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF3E80F-3A51-41A6-AC9F-5032A027B340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DE7248-38C6-4EAF-88D7-97BBF36BB277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DE7248-38C6-4EAF-88D7-97BBF36BB277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DE7248-38C6-4EAF-88D7-97BBF36BB277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DE7248-38C6-4EAF-88D7-97BBF36BB277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE95701-1AB2-476B-8775-F54541795496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE95701-1AB2-476B-8775-F54541795496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE95701-1AB2-476B-8775-F54541795496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE95701-1AB2-476B-8775-F54541795496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EE4480-0066-42FD-984C-6A53D382AAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EE4480-0066-42FD-984C-6A53D382AAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EE4480-0066-42FD-984C-6A53D382AAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EE4480-0066-42FD-984C-6A53D382AAE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
